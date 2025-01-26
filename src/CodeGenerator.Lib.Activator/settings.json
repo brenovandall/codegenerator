@@ -1,2 +1,18 @@
 {
+  "InterfaceParameters": {
+    "Path": "",
+    "NamespaceName": "",
+    "EntityName": ""
+  },
+  "ImplementationParameters": {
+    "Path": "",
+    "NamespaceName": "",
+    "ContextName": "",
+    "EntityName": ""
+  },
+  "ControllerParameters": {
+    "Path": "",
+    "NamespaceName": "",
+    "EntityName": ""
+  }
 }

@@ -8,7 +8,7 @@ namespace {{Namespace}};
 
 #region auto-generated code © Breno Van-Dall - Júnior Belem
 [ApiController]
-[Route("api/{{EntityName}}")]
+[Route("generic/api/{{EntityName}}")]
 public class {{EntityName}}Controller : ControllerBase
 {
     private readonly I{{EntityName}}Repository _repository;
@@ -23,7 +23,7 @@ public class {{EntityName}}Controller : ControllerBase
     {
         var response = _repository.Add(request, cancellationToken);
 
-        return Created();
+        return Ok();
     }
     
     [HttpPut()]
