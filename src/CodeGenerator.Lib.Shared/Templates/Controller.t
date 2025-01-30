@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace {{Namespace}};
 
-#region auto-generated code © Breno Van-Dall - Júnior Belem
+#region auto-generated code © Breno Van-Dall
 [ApiController]
 [Route("generic/api/{{EntityName}}")]
 public class {{EntityName}}Controller : ControllerBase
