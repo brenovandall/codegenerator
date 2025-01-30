@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace {{Namespace}};
 
-#region auto-generated code © Breno Van-Dall - Júnior Belem
+
+#region auto-generated code © Breno Van-Dall
 public class {{EntityName}}Repository : Repository<{{EntityName}}>, I{{EntityName}}Repository
 {
     public {{EntityName}}Repository({{Context}} context, DbSet<{{EntityName}}> dbSet) : base(context, dbSet)
